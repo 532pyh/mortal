@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mortal": "mortal"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^5.7.3",
+    "mortal-cli": "workspace:*",
+    "react": "^18.2.0"
+  }
+}

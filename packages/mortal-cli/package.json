@@ -1,0 +1,24 @@
+{
+  "name": "mortal-cli",
+  "version": "1.0.0",
+  "description": "一个最简单的脚手架",
+  "main": "index.js",
+  "bin": {
+    "mortal": "./bin/index.js"
+  },
+  "scripts": {
+    "mortal": "node ./bin/index.js"
+  },
+  "keywords": [
+    "mortal-cli"
+  ],
+  "author": "pengyihang <pt370390794@126.com> (https://github.com/532pyh)",
+  "license": "ISC",
+  "dependencies": {
+    "copy-dir": "^1.3.0",
+    "inquirer": "8.2.5",
+    "mustache": "^4.2.0",
+    "ora": "5.4.1",
+    "yargs": "^17.7.1"
+  }
+}
